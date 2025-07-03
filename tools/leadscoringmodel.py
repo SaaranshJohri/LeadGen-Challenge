@@ -1,4 +1,4 @@
-# Directory: leadgen-challenge/tools/lead_scoring_model.py
+
 
 import pandas as pd
 import numpy as np
