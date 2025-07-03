@@ -34,3 +34,13 @@ This mini toolkit replicates and improves upon core functionalities of tools lik
 
 These tools automate repetitive tasks like email discovery, domain lookup, and lead cleaning. They are ideal for SDRs, growth teams, or any outbound pipeline that needs to scale fast with quality.
 
+📊 Lead Scoring Model (lead_scoring_model.py)
+This tool uses a machine learning model to score leads based on key features such as title seniority, domain reputation, email verification confidence, and LinkedIn presence. It helps prioritize high-quality leads for outreach.
+
+🔧 Features
+Trains a regression model (GradientBoostingRegressor) on labeled lead data.
+
+Predicts lead quality score (0–100) for new entries.
+
+Supports both interactive prediction and batch training via CSV.
+
